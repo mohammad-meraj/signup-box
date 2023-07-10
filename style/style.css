@@ -1,0 +1,11 @@
+.outerbox{
+    background-color: aqua;
+    margin: 50px;
+    padding: 100px;
+}
+.innerbox{
+    background-color: aquamarine;
+    margin: 100px 100px;
+    padding: 50px;
+    font-size: 20px;
+}
