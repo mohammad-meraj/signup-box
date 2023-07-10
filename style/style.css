@@ -1,16 +1,24 @@
 .outerbox{
-    background: linear-gradient(to top left,aquamarine,aqua);
-    margin: 50px;
+    background: linear-gradient(to top left,rgb(2, 245, 164),rgb(152, 211, 211));
+    margin: 50px auto;
     padding: 100px;
+    width: 600PX;
+    display: flex;
+    align-items: center;
 }
 .innerbox{
     background: linear-gradient(to top left,aqua,aquamarine);
     margin: 100px 100px;
     padding: 50px;
     font-size: 18px;
+    box-shadow: 6px 6px rgb(12, 173, 112);
+    backdrop-filter:blur(1px);
+}
+.innerbox:hover{
+    box-shadow:none;
 }
 input{
-    width: 80%;
+    width: 90%;
     margin-top: 10px;
     border: none;
     border-bottom:2px solid ;
@@ -31,4 +39,22 @@ input:hover{
 .button:hover{
     background-color: black;
     color:aliceblue;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: rgb(151, 11, 245);
+    font-size: 20px;
+    padding: 5px;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid;
+    
+    border-radius: 10px;
 }
