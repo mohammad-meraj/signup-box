@@ -1,11 +1,34 @@
 .outerbox{
-    background-color: aqua;
+    background: linear-gradient(to top left,aquamarine,aqua);
     margin: 50px;
     padding: 100px;
 }
 .innerbox{
-    background-color: aquamarine;
+    background: linear-gradient(to top left,aqua,aquamarine);
     margin: 100px 100px;
     padding: 50px;
-    font-size: 20px;
+    font-size: 18px;
+}
+input{
+    width: 80%;
+    margin-top: 10px;
+    border: none;
+    border-bottom:2px solid ;
+    border-radius: 5px;
+    height: 25px;
+}
+.button{
+    background-color: rgba(9, 140, 248, 0.9);
+    width: 50%;
+    margin-left: 70px;
+    height: 30px;
+    color: aliceblue;
+    border:none;
+}
+input:hover{
+    border: 1px solid rgb(0, 255, 64);
+}
+.button:hover{
+    background-color: black;
+    color:aliceblue;
 }
